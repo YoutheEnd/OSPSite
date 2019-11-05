@@ -1,0 +1,6 @@
+{
+  "filename": "robot.md",
+  "__html": "<h1>机器人监控界面</h1>\n<p>此项目是机器人监控界面</p>\n<h2>主要用到的技术</h2>\n<p>nodejs的npm、webpack、react</p>\n<h2>推荐使用IDE</h2>\n<p>WebStorm</p>\n<h2>安装</h2>\n<p>首先安装node.js 下载地址：</p>\n<pre><code>https://nodejs.org/en/\n</code></pre>\n<p>使用windows自带的Powershell命令行，或者webstorm命令行执行如下命令</p>\n<pre><code>npm install\n</code></pre>\n<p>如果npm源太慢导致安装失败  那么推荐使用淘宝的注册源 直接运行</p>\n<pre><code>npm install -g cnpm --registry=https://registry.npm.taobao.org\n</code></pre>\n<p>然后使用如下命令：</p>\n<pre><code>cnpm install\n</code></pre>\n<h2>启动</h2>\n<pre><code>npm start\n</code></pre>\n<p>运行本命令后  会自动在当前默认浏览器打开一个窗口  项目就可以跑起来啦，修改代码后，浏览器能自动刷新\n如果页面出现Cannot GET /错误,请先执行</p>\n<pre><code>npm run build \n</code></pre>\n<p>打包命令，之后再执行npm start命令</p>\n<h2>打包部署</h2>\n<pre><code>npm run build\n</code></pre>\n<p>打包之后会再当目录生成一个rebot文件夹，index.html就是入口文件</p>\n<h1>目录结构说明</h1>\n<ul>\n<li>.gitignore是忽略上传到git的配置文件</li>\n<li>webpack.config.js当然就是webpack的配置了</li>\n<li>package.json  就是我们整个项目要依赖的npm包的列表</li>\n<li>src里面就是我们整个项目的源文件</li>\n<li>index.html是我们依赖的页面</li>\n<li>readme.md是项目的描述文件，即本描述文件</li>\n</ul>\n",
+  "link": "\\en-us\\docs\\robot.html",
+  "meta": {}
+}
