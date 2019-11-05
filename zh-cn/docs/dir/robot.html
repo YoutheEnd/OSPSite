@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="keywords" content="robot" />
+	<meta name="description" content="robot" />
+	<!-- 网页标签标题 -->
+	<title>robot</title>
+	<link rel="shortcut icon" href="/product/img/docsite.ico"/>
+	<link rel="stylesheet" href="/product/build/documentation.css" />
+</head>
+<body>
+	<div id="root"><div class="documentation-page" data-reactroot=""><header class="header-container header-container-normal"><div class="header-body"><a href="/product/zh-cn/index.html"><img class="logo" src="/product/img/dubbo_colorful.png"/></a><div class="search search-normal"><span class="icon-search"></span></div><span class="language-switch language-switch-normal">En</span><div class="header-menu"><img class="header-menu-toggle" src="/product/img/system/menu_gray.png"/><ul><li class="menu-item menu-item-normal"><a href="/product/zh-cn/index.html" target="_self">首页</a></li><li class="ant-dropdown-trigger menu-item menu-item-normal menu-item-normal-active"><a href="/product/zh-cn/docs/dir/what_is_OSP.html" target="_self">文档</a></li><li class="menu-item menu-item-normal"><a href="/product/zh-cn/blog/index.html" target="_self">博客</a></li><li class="menu-item menu-item-normal"><a href="/product/zh-cn/community/index.html" target="_self">社区</a></li></ul></div></div></header><div class="bar"><div class="bar-body"><img src="/product/img/system/docs.png" class="front-img"/><span>文档</span><img src="/product/img/system/docs.png" class="back-img"/></div></div><section class="content-section"><div class="sidemenu"><div class="sidemenu-toggle"><img src="https://img.alicdn.com/tfs/TB1E6apXHGYBuNjy0FoXXciBFXa-200-200.png"/></div><ul><li class="menu-item menu-item-level-1"><span>OSP</span><ul><li style="height:180px;overflow:hidden" class="menu-item menu-item-level-2"><span>OSP是什么？<img style="transform:rotate(0deg)" class="menu-toggle" src="/product/img/system/arrow_down.png"/></span><ul><li class="menu-item menu-item-level-3"><a href="/product/zh-cn/docs/dir/what_is_OSP.html" target="_self">OSP简介</a></li><li class="menu-item menu-item-level-3"><a href="/product/zh-cn/docs/dir/demo1.html" target="_self">示例1</a></li><li class="menu-item menu-item-level-3"><a href="/product/zh-cn/docs/dir/demo2.html" target="_self">示例2</a></li><li class="menu-item menu-item-level-3"><a href="/product/zh-cn/docs/dir/robot.html" target="_self">机器人</a></li></ul></li></ul></li></ul></div><div class="doc-content markdown-body"><h1>机器人监控界面</h1>
+<p>此项目是机器人监控界面</p>
+<h2>主要用到的技术</h2>
+<p>nodejs的npm、webpack、react</p>
+<h2>推荐使用IDE</h2>
+<p>WebStorm</p>
+<h2>安装</h2>
+<p>首先安装node.js 下载地址：</p>
+<pre><code>https://nodejs.org/en/
+</code></pre>
+<p>使用windows自带的Powershell命令行，或者webstorm命令行执行如下命令</p>
+<pre><code>npm install
+</code></pre>
+<p>如果npm源太慢导致安装失败  那么推荐使用淘宝的注册源 直接运行</p>
+<pre><code>npm install -g cnpm --registry=https://registry.npm.taobao.org
+</code></pre>
+<p>然后使用如下命令：</p>
+<pre><code>cnpm install
+</code></pre>
+<h2>启动</h2>
+<pre><code>npm start
+</code></pre>
+<p>运行本命令后  会自动在当前默认浏览器打开一个窗口  项目就可以跑起来啦，修改代码后，浏览器能自动刷新
+如果页面出现Cannot GET /错误,请先执行</p>
+<pre><code>npm run build 
+</code></pre>
+<p>打包命令，之后再执行npm start命令</p>
+<h2>打包部署</h2>
+<pre><code>npm run build
+</code></pre>
+<p>打包之后会再当目录生成一个rebot文件夹，index.html就是入口文件</p>
+<h1>目录结构说明</h1>
+<ul>
+<li>.gitignore是忽略上传到git的配置文件</li>
+<li>webpack.config.js当然就是webpack的配置了</li>
+<li>package.json  就是我们整个项目要依赖的npm包的列表</li>
+<li>src里面就是我们整个项目的源文件</li>
+<li>index.html是我们依赖的页面</li>
+<li>readme.md是项目的描述文件，即本描述文件</li>
+</ul>
+</div></section><footer class="footer-container"><div class="footer-body"><img src="/product/img/dubbo_gray.png"/><div class="cols-container"><div class="col col-12"><h3>愿景</h3><p>快速响应用户需求，提升开发与布署效率，协同合作伙伴共同创新，为客户提供全面服务</p></div><div class="col col-6"><dl><dt>文档</dt><dd><a href="/product/zh-cn/docs/dir/demo1.html" target="_self">概览</a></dd><dd><a href="/product/zh-cn/docs/dir/demo2.html" target="_self">快速开始</a></dd><dd><a href="/product/zh-cn/docs/dir/robot.html" target="_self">开发者指南</a></dd></dl></div><div class="col col-6"><dl><dt>资源</dt><dd><a href="/product/zh-cn/blog/index.html" target="_self">博客</a></dd><dd><a href="/product/zh-cn/community/index.html" target="_self">社区</a></dd></dl></div></div><div class="copyright"><span>Copyright © 2019 普联软件</span></div></div></footer></div></div>
+	<script src="https://f.alicdn.com/react/15.4.1/react-with-addons.min.js"></script>
+	<script src="https://f.alicdn.com/react/15.4.1/react-dom.min.js"></script>
+	<script>
+		window.rootPath = '/product';
+  </script>
+	<script src="/product/build/documentation.js"></script>
+</body>
+</html>
